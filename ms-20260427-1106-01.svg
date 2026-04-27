@@ -1,0 +1,83 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" aria-label="Abstract illustration for AI-Powered Niche Procedural Dungeon Map Generator">
+  <style>
+    .background { fill: #f8f9fa; }
+    .primary-accent { fill: #4a90e2; }
+    .secondary-accent { fill: #50e3c2; }
+    .neutral-dark { fill: #343a40; }
+    .neutral-light { fill: #adb5bd; }
+    .icon-color { fill: #ffffff; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="600" class="background"/>
+
+  <!-- Central AI/Generation Element -->
+  <g transform="translate(400, 300)">
+    <!-- Abstract AI Brain/Core -->
+    <circle cx="0" cy="0" r="80" class="primary-accent" opacity="0.8"/>
+    <circle cx="0" cy="0" r="50" fill="#ffffff" opacity="0.5"/>
+
+    <!-- AI Network Lines -->
+    <line x1="0" y1="0" x2="70" y2="-70" class="neutral-light" stroke-width="4" opacity="0.6"/>
+    <line x1="0" y1="0" x2="-70" y2="-70" class="neutral-light" stroke-width="4" opacity="0.6"/>
+    <line x1="0" y1="0" x2="70" y2="70" class="neutral-light" stroke-width="4" opacity="0.6"/>
+    <line x1="0" y1="0" x2="-70" y2="70" class="neutral-light" stroke-width="4" opacity="0.6"/>
+    <line x1="0" y1="0" x2="100" y2="0" class="neutral-light" stroke-width="4" opacity="0.6"/>
+    <line x1="0" y1="0" x2="0" y2="100" class="neutral-light" stroke-width="4" opacity="0.6"/>
+    <line x1="0" y1="0" x2="-100" y2="0" class="neutral-light" stroke-width="4" opacity="0.6"/>
+    <line x1="0" y1="0" x2="0" y2="-100" class="neutral-light" stroke-width="4" opacity="0.6"/>
+
+    <!-- Generation/Output Node -->
+    <circle cx="150" cy="0" r="30" class="secondary-accent"/>
+    <text x="150" y="5" font-family="sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">MAP</text>
+  </g>
+
+  <!-- Dungeon Elements/Icons (Abstracted) -->
+
+  <!-- Room 1 -->
+  <rect x="100" y="150" width="120" height="100" rx="10" ry="10" class="neutral-dark" opacity="0.9"/>
+  <path d="M 140 180 L 160 180 L 160 200 L 140 200 Z" class="icon-color"/> <!-- Simple square door -->
+  <circle cx="110" cy="120" r="15" class="secondary-accent"/> <!-- Small detail -->
+
+  <!-- Room 2 -->
+  <rect x="580" y="150" width="120" height="100" rx="10" ry="10" class="neutral-dark" opacity="0.9"/>
+  <path d="M 620 180 L 640 180 L 640 200 L 620 200 Z" class="icon-color"/> <!-- Simple square door -->
+  <circle cx="670" cy="230" r="15" class="secondary-accent"/> <!-- Small detail -->
+
+  <!-- Corridor -->
+  <rect x="220" y="180" width="360" height="60" rx="5" ry="5" class="neutral-light" opacity="0.8"/>
+  <circle cx="230" cy="210" r="10" class="icon-color"/> <!-- Connector -->
+  <circle cx="570" cy="210" r="10" class="icon-color"/> <!-- Connector -->
+
+  <!-- Room 3 (Lower Left) -->
+  <rect x="100" y="350" width="120" height="100" rx="10" ry="10" class="neutral-dark" opacity="0.9"/>
+  <path d="M 140 380 L 160 380 L 160 400 L 140 400 Z" class="icon-color"/> <!-- Simple square door -->
+
+  <!-- Room 4 (Lower Right) -->
+  <rect x="580" y="350" width="120" height="100" rx="10" ry="10" class="neutral-dark" opacity="0.9"/>
+  <path d="M 620 380 L 640 380 L 640 400 L 620 400 Z" class="icon-color"/> <!-- Simple square door -->
+
+  <!-- Connecting Corridors (Lower Section) -->
+  <rect x="220" y="380" width="360" height="60" rx="5" ry="5" class="neutral-light" opacity="0.8"/>
+  <circle cx="230" cy="410" r="10" class="icon-color"/> <!-- Connector -->
+  <circle cx="570" cy="410" r="10" class="icon-color"/> <!-- Connector -->
+
+  <!-- Central Hub Connection -->
+  <rect x="370" y="240" width="60" height="110" rx="5" ry="5" class="neutral-light" opacity="0.8"/>
+  <circle cx="400" cy="250" r="10" class="icon-color"/> <!-- Connector -->
+  <circle cx="400" cy="340" r="10" class="icon-color"/> <!-- Connector -->
+
+  <!-- Abstract "Niche" Element -->
+  <g transform="translate(20, 50)">
+    <circle cx="0" cy="0" r="25" class="secondary-accent"/>
+    <circle cx="0" cy="0" r="15" fill="#ffffff" opacity="0.5"/>
+    <path d="M -15 -15 L 15 -15 L 15 15 L -15 15 Z" fill="#ffffff" opacity="0.7"/> <!-- Square within circle -->
+  </g>
+
+  <!-- Abstract "Procedural" Element -->
+  <g transform="translate(750, 50)">
+    <polygon points="-20,-20 20,-20 0,20" class="primary-accent"/>
+    <circle cx="0" cy="0" r="10" fill="#ffffff" opacity="0.5"/>
+  </g>
+
+</svg>
